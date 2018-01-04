@@ -5,6 +5,8 @@ import Lang from './lang';
 
 let lang = new Lang();
 
+window.document.title = lang.translate('title');
+
 Vue.directive('lang', {
     inserted: function (el, binding) {
         el.innerHTML = lang.translate(binding.value);

@@ -1,4 +1,5 @@
 {
+  "title": "Programmer's Portfolio",
   "menu": {
     "portfolio": "portfolio",
     "about": "about",
@@ -13,5 +14,12 @@
     "location": "Ukraine · Kramatorsk",
     "mail": "salyga.yaroslav@gmail.com",
     "information": "I am a developer with more than 6 years of experience. I am able to do everything necessary for high-quality work with the front-end. I constantly develop and study new standards and frameworks. Quickly understand the code of any complexity. Analytical thinking and non-standard thinking along with creativity helps to see different ways of solving problems. There is an understanding of design aesthetics and usability of the interface."
+  },
+  "experience": {
+    "title": "Experience",
+    "it20": "Most of the time, I developed a JS application, periodically switching to urgent PHP projects or developing plug-ins for them. Here I got acquainted with most of PHP and JS frameworks (Zend, Laravel, WordPress, Yii, Bootstrap, Vue and others). Since 2016, I am currently the Timlid of the team of front-end developers.",
+    "it20-time": "April 2012 - Current time",
+    "qs": "At this place of work I passed a qualitative training in PHP, MySql, JS on the basis of Yii-framework. I learned to use OOP and develop my jQuery plugins. Participated in the development of a small online grocery store project on a competitive basis.",
+    "qs-time": "October 2011 - February 2012"
   }
 }

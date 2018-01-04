@@ -1,8 +1,13 @@
 <template>
     <div>
         <b-navbar fixed="top" class="my-nav" toggleable="md">
+            <b-navbar-brand class="mt-lg-5">
+                <span class="d-block d-lg-none" v-lang="'menu.portfolio'"></span>
+                <span class="d-none d-lg-block">
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/assets/ava.jpg" alt="">
+                </span>
+            </b-navbar-brand>
             <b-navbar-toggle target="my_collapse"></b-navbar-toggle>
-
             <b-collapse is-nav id="my_collapse">
                 <b-nav vertical v-b-scrollspy:spy>
                     <b-nav-item href="#about" v-lang-children="'menu.about'"></b-nav-item>
@@ -49,6 +54,11 @@
     .my-nav {
         background-color: #3399cc;
 
+        .img-profile {
+            max-width: 10rem;
+            max-height: 10rem;
+            border: .5rem solid rgba(255, 255, 255, .2);
+        }
         .nav-item {
             &.active {
                 background-color: #297aa3;

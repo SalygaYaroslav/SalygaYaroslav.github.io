@@ -5,11 +5,11 @@
 
             <b-collapse is-nav id="my_collapse">
                 <b-nav vertical v-b-scrollspy:spy>
-                    <b-nav-item href="#about">about</b-nav-item>
-                    <b-nav-item href="#experience">experience</b-nav-item>
-                    <b-nav-item href="#education">education</b-nav-item>
-                    <b-nav-item href="#skills">skills</b-nav-item>
-                    <b-nav-item href="#interests">interests</b-nav-item>
+                    <b-nav-item href="#about" v-lang-children="'menu.about'"></b-nav-item>
+                    <b-nav-item href="#experience" v-lang-children="'menu.experience'"></b-nav-item>
+                    <b-nav-item href="#education" v-lang-children="'menu.education'"></b-nav-item>
+                    <b-nav-item href="#skills" v-lang-children="'menu.skills'"></b-nav-item>
+                    <b-nav-item href="#interests" v-lang-children="'menu.interests'"></b-nav-item>
                 </b-nav>
             </b-collapse>
         </b-navbar>

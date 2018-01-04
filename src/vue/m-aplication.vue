@@ -1,7 +1,7 @@
 <template>
     <div>
         <b-navbar fixed="top" class="my-nav" toggleable="md">
-            <b-navbar-brand class="mt-lg-5">
+            <b-navbar-brand class="mt-lg-5 mr-0">
                 <span class="d-block d-lg-none" v-lang="'menu.portfolio'"></span>
                 <span class="d-none d-lg-block">
                     <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/assets/ava.jpg" alt="">
@@ -43,12 +43,52 @@
         font-style: normal;
     }
 
+    @font-face {
+        font-family: 'Acrobat';
+        src: url('/font/acrobat.eot?k6fn45');
+        src: url('/font/acrobat.eot?k6fn45#iefix') format('embedded-opentype'),
+        url('/font/acrobat.ttf?k6fn45') format('truetype'),
+        url('/font/acrobat.woff?k6fn45') format('woff'),
+        url('/font/acrobat.svg?k6fn45#prostoy') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+
     body {
+        font-family: Acrobat;
+    }
+
+    .--acrobat {
+        font-family: Acrobat;
+    }
+
+    .--bebas {
         font-family: Bebas;
+    }
+
+    .--uppercase {
+        text-transform: uppercase;
     }
 
     .--my-color {
         color: #3399cc;
+    }
+
+    .--my-gray {
+        color: #343a40;
+
+        &:hover {
+            color: #3399cc;
+        }
+    }
+
+    .--radius {
+        border: 2px solid #343a40;
+        border-radius: 100%;
+
+        &:hover {
+            border-color: #3399cc;
+        }
     }
 
     .my-nav {
@@ -57,7 +97,7 @@
         .img-profile {
             max-width: 10rem;
             max-height: 10rem;
-            border: .5rem solid rgba(255, 255, 255, .2);
+            border: .8rem solid #297aa3;
         }
         .nav-item {
             &.active {

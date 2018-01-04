@@ -8,8 +8,10 @@
     "interests": "interests"
   },
   "about": {
-    "name": "Yaroslav <span>Salyga</span>",
+    "name": "Yaroslav",
+    "surname": "Salyga",
     "location": "Ukraine · Kramatorsk",
-    "mail": "salyga.yaroslav@gmail.com"
+    "mail": "salyga.yaroslav@gmail.com",
+    "information": "I am a developer with more than 6 years of experience. I am able to do everything necessary for high-quality work with the front-end. I constantly develop and study new standards and frameworks. Quickly understand the code of any complexity. Analytical thinking and non-standard thinking along with creativity helps to see different ways of solving problems. There is an understanding of design aesthetics and usability of the interface."
   }
 }

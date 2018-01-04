@@ -3,7 +3,7 @@
         <h2 class="my-about-name mb-5 --bebas" v-lang="'experience.title'"></h2>
         <div class="d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-                <h3 class="mb-0 --bebas --my-gray">Middle Web Developer</h3>
+                <h3 class="mb-0 --bebas">Middle Web Developer</h3>
                 <div class="subheading mb-3 --bebas">IT 2.0</div>
                 <p class="subheading --acrobat" v-lang="'experience.it20'"></p>
             </div>
@@ -13,7 +13,7 @@
         </div>
         <div class="d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-                <h3 class="mb-0 --bebas --my-gray">Junior Web Developer</h3>
+                <h3 class="mb-0 --bebas">Junior Web Developer</h3>
                 <div class="subheading mb-3 --bebas">QuartSoft</div>
                 <p class="subheading --acrobat" v-lang="'experience.qs'"></p>
             </div>
@@ -23,7 +23,7 @@
         </div>
         <div class="d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-                <h3 class="mb-0 --bebas --my-gray" v-lang="'experience.mevs-pos'"></h3>
+                <h3 class="mb-0 --bebas" v-lang="'experience.mevs-pos'"></h3>
                 <div class="subheading mb-3 --bebas">MEVS</div>
                 <p class="subheading --acrobat" v-lang="'experience.mevs'"></p>
             </div>
@@ -42,9 +42,13 @@
 
 <style lang="scss">
     h2 {
-        font-size: 4rem;
-        line-height: 4.5rem;
+        font-size: 3.5rem;
+        line-height: 4rem;
         font-weight: 500;
+        color: #343a40;
+    }
+
+    h3 {
         color: #343a40;
     }
 
@@ -56,5 +60,7 @@
 
     .my-date {
         min-width: 18rem;
+        font-weight: 500;
+        font-size: 1.2  rem;
     }
 </style>

@@ -17,12 +17,21 @@
   },
   "experience": {
     "title": "Experience",
-    "it20": "Most of the time, I developed a JS application, periodically switching to urgent PHP projects or developing plug-ins for them. Here I got acquainted with most of PHP and JS frameworks (Zend, Laravel, WordPress, Yii, Bootstrap, Vue and others). Since 2016, I am currently the Timlid of the team of front-end developers.",
+    "it20": "Most of the time, I developed a JS application, periodically switching to urgent PHP projects or developing plug-ins for them. Here I got acquainted with most of PHP and JS frameworks (Zend, Laravel, WordPress, Yii, Bootstrap, Vue and others). Since 2016, I am the team leader of front-end developers. I constantly participate in the development of TK and design for projects.",
     "it20-time": "April 2012 - Current time",
     "qs": "The beginning of work came to the 5th year of study at the institute. Here I passed qualitative training on PHP, MySql, JS on the basis of Yii-framework. I learned to use OOP and develop my jQuery plugins. Participated in the development of a small online grocery store project on a competitive basis.",
     "qs-time": "October 2011 - February 2012",
     "mevs-pos": "Employee of the service center",
     "mevs": "In the service center, I learned how to collect and repair PCs, laptops and peripherals. The software installation skills and network settings allowed me to successfully use them at any place of work.",
     "mevs-time": "August 2010 - May 2011"
+  },
+  "education": {
+    "title": "Education",
+    "dmt": "DT DGMA",
+    "dmt-special": "Software Engineer",
+    "dmt-time": "February 2009",
+    "dgma": "DGMA",
+    "dgma-special": "Specialist-engineer of information technologies of designing",
+    "dgma-time": "February 2012"
   }
 }

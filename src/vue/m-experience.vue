@@ -21,6 +21,16 @@
                 <span class="--my-color" v-lang="'experience.qs-time'"></span>
             </div>
         </div>
+        <div class="d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+                <h3 class="mb-0 --bebas --my-gray" v-lang="'experience.mevs-pos'"></h3>
+                <div class="subheading mb-3 --bebas">MEVS</div>
+                <p class="subheading --acrobat" v-lang="'experience.mevs'"></p>
+            </div>
+            <div class="my-date text-md-right">
+                <span class="--my-color" v-lang="'experience.mevs-time'"></span>
+            </div>
+        </div>
     </div>
 </template>
 

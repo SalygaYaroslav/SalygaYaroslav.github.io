@@ -4,8 +4,12 @@
             <b-navbar-toggle target="my_collapse"></b-navbar-toggle>
 
             <b-collapse is-nav id="my_collapse">
-                <b-nav vertical>
-                    <b-nav-item v-for="part in parts" v-bind:href="'#'+part">{{part}}</b-nav-item>
+                <b-nav vertical v-b-scrollspy:spy>
+                    <b-nav-item href="#about">about</b-nav-item>
+                    <b-nav-item href="#experience">experience</b-nav-item>
+                    <b-nav-item href="#education">education</b-nav-item>
+                    <b-nav-item href="#skills">skills</b-nav-item>
+                    <b-nav-item href="#interests">interests</b-nav-item>
                 </b-nav>
             </b-collapse>
         </b-navbar>
@@ -18,12 +22,7 @@
 
     export default {
         components: {mContent},
-        name: "m-aplication",
-        data() {
-            return {
-                parts: ['about', 'experience', 'education', 'skills', 'interests']
-            }
-        },
+        name: "m-aplication"
     }
 </script>
 
@@ -31,10 +30,16 @@
     .my-nav {
         background-color: #3399cc;
 
-        .nav-link {
-            font-family: "Segoe UI";
-            color: #ffffff;
-            text-transform: uppercase;
+        .nav-item {
+            &.active {
+                background-color: #297aa3;
+            }
+
+            .nav-link {
+                font-family: "Segoe UI";
+                color: #ffffff;
+                text-transform: uppercase;
+            }
         }
     }
 

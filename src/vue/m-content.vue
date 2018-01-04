@@ -1,15 +1,38 @@
 <template>
     <div class="my-content container-fluid p-0">
-        <section id="about" class="my-section">about</section>
-        <section id="experience" class="my-section">experience</section>
-        <section id="education" class="my-section">education</section>
-        <section id="skills" class="my-section">skills</section>
-        <section id="interests" class="my-section">interests</section>
+        <section id="about" class="my-section p-3 p-lg-5 d-flex d-column">
+            <m-about></m-about>
+        </section>
+        <section id="experience" class="my-section p-3 p-lg-5 d-flex d-column">
+            <m-experience></m-experience>
+        </section>
+        <section id="education" class="my-section p-3 p-lg-5 d-flex d-column">
+            <m-education></m-education>
+        </section>
+        <section id="skills" class="my-section p-3 p-lg-5 d-flex d-column">
+            <m-skills></m-skills>
+        </section>
+        <section id="interests" class="my-section p-3 p-lg-5 d-flex d-column">
+            <m-interests></m-interests>
+        </section>
     </div>
 </template>
 
 <script>
+    import MAbout from "./m-about.vue";
+    import MExperience from "./m-experience.vue";
+    import MEducation from "./m-education.vue";
+    import MSkills from "./m-skills.vue";
+    import MInterests from "./m-interests.vue";
+
     export default {
+        components: {
+            MInterests,
+            MSkills,
+            MExperience,
+            MAbout,
+            MEducation
+        },
         name: "m-content"
     }
 </script>
@@ -17,8 +40,10 @@
 <style lang="scss">
     .my-content {
         position: relative;
+
         .my-section {
             min-height: 100vh;
+            border-bottom: 1px solid #868e96;
         }
     }
 </style>

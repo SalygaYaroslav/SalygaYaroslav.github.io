@@ -5,5 +5,10 @@
     "education": "education",
     "skills": "skills",
     "interests": "interests"
+  },
+  "about": {
+    "name": "Yaroslav <span>Salyga</span>",
+    "location": "Ukraine · Kramatorsk",
+    "mail": "salyga.yaroslav@gmail.com"
   }
 }

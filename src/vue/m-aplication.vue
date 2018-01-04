@@ -27,6 +27,25 @@
 </script>
 
 <style lang="scss">
+    @font-face {
+        font-family: 'Bebas';
+        src: url('/font/bebas.eot?k6fn45');
+        src: url('/font/bebas.eot?k6fn45#iefix') format('embedded-opentype'),
+        url('/font/bebas.ttf?k6fn45') format('truetype'),
+        url('/font/bebas.woff?k6fn45') format('woff'),
+        url('/font/bebas.svg?k6fn45#prostoy') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    body {
+        font-family: Bebas;
+    }
+
+    .--my-color {
+        color: #3399cc;
+    }
+
     .my-nav {
         background-color: #3399cc;
 
@@ -36,9 +55,9 @@
             }
 
             .nav-link {
-                font-family: "Segoe UI";
                 color: #ffffff;
                 text-transform: uppercase;
+                font-size: 1.5rem;
             }
         }
     }

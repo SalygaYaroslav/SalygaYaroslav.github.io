@@ -5,5 +5,10 @@
     "education": "Образование",
     "skills": "Навыки",
     "interests": "Интересы"
+  },
+  "about": {
+    "name": "Ярослав <span>Cалыга</span>",
+    "location": "Украина · Краматорск",
+    "mail": "salyga.yaroslav@gmail.com"
   }
 }

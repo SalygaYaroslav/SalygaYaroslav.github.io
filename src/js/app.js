@@ -7,12 +7,12 @@ let lang = new Lang();
 
 Vue.directive('lang', {
     inserted: function (el, binding) {
-        el.text = lang.translate(binding.value);
+        el.innerHTML = lang.translate(binding.value);
     }
 });
 Vue.directive('lang-children', {
     inserted: function (el, binding) {
-        el.children[0].text = lang.translate(binding.value);
+        el.children[0].innerHTML = lang.translate(binding.value);
     }
 });
 

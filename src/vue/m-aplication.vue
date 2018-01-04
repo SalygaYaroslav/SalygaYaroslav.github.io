@@ -1,5 +1,5 @@
 <template>
-    <b-container>
+    <div>
         <b-navbar fixed="top" class="my-nav" toggleable="md">
             <b-navbar-toggle target="my_collapse"></b-navbar-toggle>
 
@@ -9,8 +9,8 @@
                 </b-nav>
             </b-collapse>
         </b-navbar>
-        <m-content></m-content>
-    </b-container>
+        <m-content v-bind:parts="parts"></m-content>
+    </div>
 </template>
 
 <script>
@@ -18,7 +18,7 @@
 
     export default {
         components: {mContent},
-        name: "aplication",
+        name: "m-aplication",
         data() {
             return {
                 parts: ['about', 'experience', 'education', 'skills', 'interests']
@@ -39,6 +39,10 @@
     }
 
     @media (min-width: 992px) {
+        body {
+            padding-top: 0;
+            padding-left: 20rem;
+        }
         .my-nav {
             text-align: center;
             position: fixed;
@@ -46,7 +50,7 @@
             left: 0;
             display: flex;
             flex-direction: column;
-            width: 20vw;
+            width: 20rem;
             height: 100vh;
 
             .nav {

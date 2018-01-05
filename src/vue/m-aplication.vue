@@ -72,6 +72,12 @@
         }
     }
 
+    @media (max-width: 576px) {
+        .my-content {
+            margin-top: 50px
+        }
+    }
+
     @media (min-width: 992px) {
         body {
             padding-top: 0;

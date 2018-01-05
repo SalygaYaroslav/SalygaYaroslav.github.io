@@ -53,10 +53,4 @@
             border-bottom: 1px solid $gray-regular;
         }
     }
-
-    @media (min-width: 576px) {
-        .my-content {
-            margin-top: 50px
-        }
-    }
 </style>

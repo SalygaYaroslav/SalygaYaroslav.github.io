@@ -82,11 +82,11 @@
 
     span.skills-icon {
         font-size: 2rem;
-        color: #868e96;
+        color: #3399cc;
         cursor: pointer;
 
         &:hover {
-            color: #3399cc;
+            color: #297aa3;
         }
     }
 </style>

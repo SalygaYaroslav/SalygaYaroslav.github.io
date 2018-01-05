@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('/font/icomoon.eot?7wcrtr');
-  src:  url('/font/icomoon.eot?7wcrtr#iefix') format('embedded-opentype'),
-    url('/font/icomoon.ttf?7wcrtr') format('truetype'),
-    url('/font/icomoon.woff?7wcrtr') format('woff'),
-    url('/font/icomoon.svg?7wcrtr#icomoon') format('svg');
+  src:  url('/font/icomoon.eot?51vaua');
+  src:  url('/font/icomoon.eot?51vaua#iefix') format('embedded-opentype'),
+    url('/font/icomoon.ttf?51vaua') format('truetype'),
+    url('/font/icomoon.woff?51vaua') format('woff'),
+    url('/font/icomoon.svg?51vaua#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-award:before {
+  content: "\e91b";
+}
 .icon-joomla:before {
   content: "\e919";
 }
@@ -104,4 +107,10 @@
 }
 .icon-viber:before {
   content: "\e916";
+}
+.icon-trophy:before {
+  content: "\e99e";
+}
+.icon-check:before {
+  content: "\ea11";
 }

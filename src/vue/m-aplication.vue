@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b-navbar fixed="top" class="my-nav" toggleable="md">
+        <b-navbar fixed="top" class="my-nav" toggleable="lg">
             <b-navbar-brand class="mt-lg-5 mr-0">
                 <span class="d-block d-lg-none" v-lang="'menu.portfolio'"></span>
                 <span class="d-none d-lg-block">
@@ -37,6 +37,22 @@
 
     .my-nav {
         background-color: $blue-regular;
+
+        .navbar-brand {
+            color: #ffffff;
+            &:hover {
+                color: #ffffff;
+            }
+        }
+        .navbar-toggler {
+            border-color: #ffffff;
+            .navbar-toggler-icon {
+                background-image: unset;
+                -webkit-mask: url(/assets/toggle.svg) no-repeat 50% 50%;
+                mask: url(/assets/toggle.svg) no-repeat 50% 50%;
+                background-color: #ffffff;
+            }
+        }
 
         .img-profile {
             max-width: 10rem;

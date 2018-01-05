@@ -4,9 +4,12 @@
         <div class="d-flex flex-column flex-md-row mb-5">
             <div class="mr-auto subheading">
                 <ul class="list my-certifications-list">
-                    <li class="list-item" v-lang="'certifications.first'"></li>
-                    <li class="list-item" v-lang="'certifications.second'"></li>
-                    <li class="list-item" v-lang="'certifications.third'"></li>
+                    <li class="list-item"><i class="my-certifications-icon icon-trophy mr-2"></i><span
+                            v-lang="'certifications.first'"></span></li>
+                    <li class="list-item"><i class="my-certifications-icon icon-trophy mr-2"></i><span
+                            v-lang="'certifications.second'"></span></li>
+                    <li class="list-item"><i class="my-certifications-icon icon-trophy mr-2"></i><span
+                            v-lang="'certifications.third'"></span></li>
                 </ul>
                 <ul>
                     <p v-lang="'certifications.more'"></p>
@@ -26,12 +29,18 @@
     @import "../scss/main";
 
     .my-certifications-list {
-        list-style-image: url(/assets/avard.png);
+        list-style: none;
+        padding-left: 2rem;
 
         .list-item {
             font-weight: 500;
             font-size: 1.35rem;
             color: $gray-regular;
+
+            .my-certifications-icon {
+                font-size: 1.2rem;
+                color: $blue-regular;
+            }
         }
     }
 </style>

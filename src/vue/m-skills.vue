@@ -36,12 +36,18 @@
                 </ul>
                 <div class="subheading mb-3 --bebas" v-lang="'skills.workflow'"></div>
                 <ul class="list my-check-list">
-                    <li class="list-item" v-lang="'skills.first'"></li>
-                    <li class="list-item" v-lang="'skills.second'"></li>
-                    <li class="list-item" v-lang="'skills.third'"></li>
-                    <li class="list-item" v-lang="'skills.four'"></li>
-                    <li class="list-item" v-lang="'skills.five'"></li>
-                    <li class="list-item" v-lang="'skills.six'"></li>
+                    <li class="list-item"><i class="my-check-icon icon-check mr-2"></i><span v-lang="'skills.first'"></span>
+                    </li>
+                    <li class="list-item"><i class="my-check-icon icon-check mr-2"></i><span v-lang="'skills.second'"></span>
+                    </li>
+                    <li class="list-item"><i class="my-check-icon icon-check mr-2"></i><span v-lang="'skills.third'"></span>
+                    </li>
+                    <li class="list-item"><i class="my-check-icon icon-check mr-2"></i><span v-lang="'skills.four'"></span>
+                    </li>
+                    <li class="list-item"><i class="my-check-icon icon-check mr-2"></i><span v-lang="'skills.five'"></span>
+                    </li>
+                    <li class="list-item"><i class="my-check-icon icon-check mr-2"></i><span v-lang="'skills.six'"></span>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -58,12 +64,18 @@
     @import "../scss/main";
 
     .my-check-list {
-        list-style-image: url(/assets/check.png);
+        list-style: none;
+        padding-left: 2rem;
 
         .list-item {
             font-weight: 500;
             font-size: 1.35rem;
             color: $gray-regular;
+
+            .my-check-icon {
+                font-size: 1rem;
+                color: $blue-regular;
+            }
         }
     }
 

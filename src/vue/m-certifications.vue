@@ -7,9 +7,9 @@
                     <li class="list-item"><i class="my-certifications-icon icon-trophy mr-2"></i><span
                             v-lang="'certifications.first'"></span></li>
                     <li class="list-item"><i class="my-certifications-icon icon-trophy mr-2"></i><span
-                            v-lang="'certifications.second'"></span></li>
-                    <li class="list-item"><i class="my-certifications-icon icon-trophy mr-2"></i><span
                             v-lang="'certifications.third'"></span></li>
+                    <li class="list-item"><i class="my-certifications-icon icon-trophy mr-2"></i><span
+                            v-lang="'certifications.four'"></span></li>
                 </ul>
                 <ul>
                     <p v-lang="'certifications.more'"></p>

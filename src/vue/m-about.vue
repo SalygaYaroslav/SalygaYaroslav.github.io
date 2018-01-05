@@ -16,15 +16,16 @@
         </div>
 
         <div class="subheading mb-5">
-            <a href="https://vk.com/skyuoker" target="_blank" class="my-link"><span
+            <a href="https://vk.com/skyuoker" target="_blank" class="my-link" v-b-tooltip.hover title="Vkontakte"><span
                     class="icon-vk --radius p-2"></span></a>
-            <a href="https://t.me/sjrslv" target="_blank" class="my-link"><span
+            <a href="https://t.me/sjrslv" target="_blank" class="my-link" v-b-tooltip.hover title="Telegram"><span
                     class="icon-telegram --radius p-2"></span></a>
-            <a href="viber://chat?number=+380660349140" target="_blank" class="my-link"><span
+            <a href="viber://chat?number=+380660349140" target="_blank" class="my-link" v-b-tooltip.hover title="Viber"><span
                     class="icon-viber --radius p-2"></span></a>
-            <a href="skype:altagere?call" target="_blank" class="my-link"><span
+            <a href="skype:altagere?call" target="_blank" class="my-link" v-b-tooltip.hover title="Skype"><span
                     class="icon-skype --radius p-2"></span></a>
-            <a href="https://github.com/SalygaYaroslav" target="_blank" class="my-link"><span
+            <a href="https://github.com/SalygaYaroslav" target="_blank" class="my-link" v-b-tooltip.hover
+               title="GitHub"><span
                     class="icon-github --radius p-2"></span></a>
         </div>
     </div>

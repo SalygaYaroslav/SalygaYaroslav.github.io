@@ -27,6 +27,7 @@ gulp.task('build', () => {
 });
 
 gulp.task('watch', ['build'], () => {
+    gulp.watch('./src/**/*.scss', ['build']);
     gulp.watch('./src/**/*.js', ['build']);
     gulp.watch('./src/**/*.vue', ['build']);
 });

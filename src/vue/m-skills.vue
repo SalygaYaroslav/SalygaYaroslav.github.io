@@ -55,22 +55,7 @@
 </script>
 
 <style lang="scss">
-    h2 {
-        font-size: 3.5rem;
-        line-height: 4rem;
-        font-weight: 500;
-        color: #343a40;
-    }
-
-    h3 {
-        color: #343a40;
-    }
-
-    .subheading {
-        font-weight: 500;
-        font-size: 1.35rem;
-        color: #868e96;
-    }
+    @import "../scss/main";
 
     .my-check-list {
         list-style-image: url(/assets/check.png);
@@ -78,17 +63,17 @@
         .list-item {
             font-weight: 500;
             font-size: 1.35rem;
-            color: #868e96;
+            color: $gray-regular;
         }
     }
 
     span.skills-icon {
         font-size: 2rem;
-        color: #3399cc;
+        color: $blue-regular;
         cursor: pointer;
 
         &:hover {
-            color: #297aa3;
+            color: $blue-darkness;
         }
     }
 </style>

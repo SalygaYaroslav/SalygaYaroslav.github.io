@@ -33,76 +33,19 @@
 </script>
 
 <style lang="scss">
-    @font-face {
-        font-family: 'Bebas';
-        src: url('/font/bebas.eot?k6fn45');
-        src: url('/font/bebas.eot?k6fn45#iefix') format('embedded-opentype'),
-        url('/font/bebas.ttf?k6fn45') format('truetype'),
-        url('/font/bebas.woff?k6fn45') format('woff'),
-        url('/font/bebas.svg?k6fn45#prostoy') format('svg');
-        font-weight: normal;
-        font-style: normal;
-    }
-
-    @font-face {
-        font-family: 'Acrobat';
-        src: url('/font/acrobat.eot?k6fn45');
-        src: url('/font/acrobat.eot?k6fn45#iefix') format('embedded-opentype'),
-        url('/font/acrobat.ttf?k6fn45') format('truetype'),
-        url('/font/acrobat.woff?k6fn45') format('woff'),
-        url('/font/acrobat.svg?k6fn45#prostoy') format('svg');
-        font-weight: normal;
-        font-style: normal;
-    }
-
-    body {
-        font-family: Acrobat;
-    }
-
-    .--acrobat {
-        font-family: Acrobat;
-    }
-
-    .--bebas {
-        font-family: Bebas;
-    }
-
-    .--uppercase {
-        text-transform: uppercase;
-    }
-
-    .--my-color {
-        color: #3399cc;
-    }
-
-    .--my-gray {
-        color: #343a40;
-
-        &:hover {
-            color: #3399cc;
-        }
-    }
-
-    .--radius {
-        border: 2px solid #343a40;
-        border-radius: 100%;
-
-        &:hover {
-            border-color: #3399cc;
-        }
-    }
+    @import "../scss/main";
 
     .my-nav {
-        background-color: #3399cc;
+        background-color: $blue-regular;
 
         .img-profile {
             max-width: 10rem;
             max-height: 10rem;
-            border: .8rem solid #297aa3;
+            border: .8rem solid $blue-darkness;
         }
         .nav-item {
             &.active {
-                background-color: #297aa3;
+                background-color: $blue-darkness;
             }
 
             .nav-link {

@@ -43,12 +43,14 @@
 </script>
 
 <style lang="scss">
+    @import "../scss/main";
+
     .my-content {
         position: relative;
 
         .my-section {
             min-height: 100vh;
-            border-bottom: 1px solid #868e96;
+            border-bottom: 1px solid $gray-regular;
         }
     }
 </style>

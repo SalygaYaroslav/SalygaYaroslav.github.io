@@ -22,6 +22,6 @@ export default class Lang {
             error: function () {
             }
         });
-        return (dictionary == null && !stop) ? Lang.load('ru') : dictionary;
+        return (dictionary == null && !stop) ? Lang.load('en') : dictionary;
     }
 }

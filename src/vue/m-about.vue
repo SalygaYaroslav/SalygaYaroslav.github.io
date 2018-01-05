@@ -16,7 +16,7 @@
         </div>
 
         <div class="subheading mb-5">
-            <a href="https://vk.com/skyuoker" target="_blank" class="my-link" v-b-tooltip.hover title="Vkontakte"><span
+            <a href="https://vk.com/skyuoker" target="_blank" class="my-link" v-b-tooltip.click title="Vkontakte"><span
                     class="icon-vk --radius p-2"></span></a>
             <a href="https://t.me/sjrslv" target="_blank" class="my-link" v-b-tooltip.hover title="Telegram"><span
                     class="icon-telegram --radius p-2"></span></a>

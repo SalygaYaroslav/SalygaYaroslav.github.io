@@ -1,15 +1,24 @@
 <template>
     <div class="my-auto">
-        <h1 class="my-about-name mb-0 --bebas">
-            <span v-lang="'about.name'"></span>
-            <span v-lang="'about.surname'" class="--my-color"></span>
-        </h1>
-        <div class="subheading mb-5 --uppercase --bebas">
-            <a class="--my-color my-contact" href="mailto:name@email.com" v-lang="'about.mail'"></a>
-            <span> · </span>
-            <span v-lang="'about.location'"></span>
-            <span> · </span>
-            <a class="--my-color my-contact" href="tel:+38 (066) 034-91-40">+38 (066) 034-91-40</a>
+        <div class="d-flex flex-column flex-md-row mb-5 justify-content-between">
+            <div class="my-info">
+                <h1 class="my-about-name mb-0 --bebas">
+                    <span v-lang="'about.name'"></span>
+                    <span v-lang="'about.surname'" class="--my-color"></span>
+                </h1>
+                <div class="subheading mb-5 --uppercase --bebas">
+                    <a class="--my-color my-contact" href="mailto:name@email.com" v-lang="'about.mail'"></a>
+                    <span> · </span>
+                    <span v-lang="'about.location'"></span>
+                    <span> · </span>
+                    <a class="--my-color my-contact" href="tel:+38 (066) 034-91-40">+38 (066) 034-91-40</a>
+                </div>
+            </div>
+            <div class="my-qr flex-md-row mt-3">
+                <span class="my-qr-code icon-qrcode">
+                    <span class="path2"></span>
+                </span>
+            </div>
         </div>
         <div class="subheading mb-5">
             <span v-lang="'about.information'"></span>
@@ -54,6 +63,20 @@
         &:hover {
             text-decoration: none;
             color: $blue-darkness;
+        }
+    }
+
+    .my-qr {
+        width: 6rem;
+        height: 6rem;
+        &-code {
+            width: 6rem;
+            height: 6rem;
+            display: block;
+            padding: 0.4rem;
+            font-size: 5rem;
+            color: $dark-regular;
+            border: 2px solid $blue-regular;
         }
     }
 </style>

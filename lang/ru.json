@@ -33,5 +33,16 @@
     "dgma": "ДГМА",
     "dgma-special": "Специалист-инженер информационных технологий проектирования",
     "dgma-time": "Февраль 2012"
+  },
+  "skills": {
+    "title": "Навыки",
+    "languages": "Языки программирования",
+    "tools": "Инструменты",
+    "frameworks": "Фреймворки",
+    "workflow": "Рабочий процесс",
+    "first": "Mobile-First, Responsive Design",
+    "second": "Cross Browser Testing & Debugging",
+    "third": "Cross Functional Teams",
+    "four": "Agile Development & Scrum"
   }
 }

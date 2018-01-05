@@ -40,6 +40,8 @@
                     <li class="list-item" v-lang="'skills.second'"></li>
                     <li class="list-item" v-lang="'skills.third'"></li>
                     <li class="list-item" v-lang="'skills.four'"></li>
+                    <li class="list-item" v-lang="'skills.five'"></li>
+                    <li class="list-item" v-lang="'skills.six'"></li>
                 </ul>
             </div>
         </div>

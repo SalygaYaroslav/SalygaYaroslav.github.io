@@ -15,6 +15,7 @@
                     <b-nav-item href="#education" v-lang-children="'menu.education'"></b-nav-item>
                     <b-nav-item href="#skills" v-lang-children="'menu.skills'"></b-nav-item>
                     <b-nav-item href="#interests" v-lang-children="'menu.interests'"></b-nav-item>
+                    <b-nav-item href="#certifications" v-lang-children="'menu.certifications'"></b-nav-item>
                 </b-nav>
             </b-collapse>
         </b-navbar>

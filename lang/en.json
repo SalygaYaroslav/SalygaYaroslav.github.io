@@ -6,7 +6,8 @@
     "experience": "experience",
     "education": "education",
     "skills": "skills",
-    "interests": "interests"
+    "interests": "interests",
+    "certifications": "certifications"
   },
   "about": {
     "name": "Yaroslav",
@@ -43,10 +44,19 @@
     "first": "Mobile-First, Responsive Design",
     "second": "Cross Browser Testing & Debugging",
     "third": "Agile Development & Scrum",
-    "four": "Cross Functional Teams"
+    "four": "Cross Functional Teams",
+    "five": "Working with API (Oauth, Google, Yandex, Twitch, Steam and others)",
+    "six": "Working with chats (Jabber, XMPP) and telephony (SIP, WebRTC)"
   },
   "interests": {
     "title": "Interests",
     "text": "In addition to front-end development, I spend a lot of time on active recreation and personal development. <br> I really love fishing, and I try to go to it at every opportunity. In addition to fishing, I often play football on an amateur level. <br> If the weather does not allow you to relax actively, then I can play computer games or spend time with an art book. I also try to participate in social projects aimed at helping those in need or simply improving the city. <br> Often I help my wife with work (graphic design). I like to spend time in a friendly atmosphere communicating on any topic."
+  },
+  "certifications": {
+    "title": "Certifications",
+    "first": "Leadership training (Sevastopol)",
+    "second": "UX Designer",
+    "third": "Elementary English (English 4U)",
+    "more": "and others ..."
   }
 }

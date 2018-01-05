@@ -15,6 +15,9 @@
         <section id="interests" class="my-section p-3 p-lg-5 d-flex d-column">
             <m-interests></m-interests>
         </section>
+        <section id="certifications" class="my-section p-3 p-lg-5 d-flex d-column">
+            <m-certifications></m-certifications>
+        </section>
     </div>
 </template>
 
@@ -24,9 +27,11 @@
     import MEducation from "./m-education.vue";
     import MSkills from "./m-skills.vue";
     import MInterests from "./m-interests.vue";
+    import MCertifications from "./m-certifications.vue";
 
     export default {
         components: {
+            MCertifications,
             MInterests,
             MSkills,
             MExperience,

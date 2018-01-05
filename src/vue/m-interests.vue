@@ -32,10 +32,4 @@
         font-size: 1.35rem;
         color: #868e96;
     }
-
-    .my-date {
-        min-width: 18rem;
-        font-weight: 500;
-        font-size: 1.2rem;
-    }
 </style>

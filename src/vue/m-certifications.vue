@@ -2,7 +2,7 @@
     <div class="my-auto">
         <h2 class="my-about-name mb-5 --bebas" v-lang="'certifications.title'"></h2>
         <div class="d-flex flex-column flex-md-row mb-5">
-            <div class="mr-auto subheading">
+            <div class="mr-auto subheading --acrobat">
                 <ul class="list my-certifications-list">
                     <li class="list-item"><i class="my-certifications-icon icon-trophy mr-2"></i><span
                             v-lang="'certifications.first'"></span></li>

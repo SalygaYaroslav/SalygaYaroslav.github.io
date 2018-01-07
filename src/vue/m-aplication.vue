@@ -9,7 +9,7 @@
             </b-navbar-brand>
             <b-navbar-toggle target="my_collapse"></b-navbar-toggle>
             <b-collapse is-nav id="my_collapse">
-                <b-nav vertical v-b-scrollspy:spy>
+                <b-nav vertical v-b-scrollspy:spy class="--bebas">
                     <b-nav-item href="#about" v-lang-children="'menu.about'"></b-nav-item>
                     <b-nav-item href="#experience" v-lang-children="'menu.experience'"></b-nav-item>
                     <b-nav-item href="#education" v-lang-children="'menu.education'"></b-nav-item>

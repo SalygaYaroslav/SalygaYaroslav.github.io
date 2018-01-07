@@ -56,7 +56,7 @@
                             class="skills-icon icon-wordpress"></span></li>
                 </ul>
                 <div class="subheading mb-3 --bebas" v-lang="'skills.workflow'"></div>
-                <ul class="list my-check-list">
+                <ul class="list my-check-list --acrobat">
                     <li class="list-item"><i class="my-check-icon icon-check mr-2"></i><span
                             v-lang="'skills.first'"></span>
                     </li>

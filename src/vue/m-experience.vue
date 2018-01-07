@@ -8,7 +8,7 @@
                 <p class="subheading --acrobat" v-lang="'experience.it20'"></p>
             </div>
             <div class="my-date text-md-right">
-                <span class="--my-color" v-lang="'experience.it20-time'"></span>
+                <span class="--my-color --bebas" v-lang="'experience.it20-time'"></span>
             </div>
         </div>
         <div class="d-flex flex-column flex-md-row mb-5">
@@ -18,7 +18,7 @@
                 <p class="subheading --acrobat" v-lang="'experience.qs'"></p>
             </div>
             <div class="my-date text-md-right">
-                <span class="--my-color" v-lang="'experience.qs-time'"></span>
+                <span class="--my-color --bebas" v-lang="'experience.qs-time'"></span>
             </div>
         </div>
         <div class="d-flex flex-column flex-md-row mb-5">
@@ -28,7 +28,7 @@
                 <p class="subheading --acrobat" v-lang="'experience.mevs'"></p>
             </div>
             <div class="my-date text-md-right">
-                <span class="--my-color" v-lang="'experience.mevs-time'"></span>
+                <span class="--my-color --bebas" v-lang="'experience.mevs-time'"></span>
             </div>
         </div>
     </div>

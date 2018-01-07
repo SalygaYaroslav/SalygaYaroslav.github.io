@@ -7,7 +7,7 @@
                 <div class="subheading mb-3 --bebas" v-lang="'education.dgma-special'"></div>
             </div>
             <div class="my-date text-md-right">
-                <span class="--my-color" v-lang="'education.dgma-time'"></span>
+                <span class="--my-color --bebas" v-lang="'education.dgma-time'"></span>
             </div>
         </div>
         <div class="d-flex flex-column flex-md-row mb-5">
@@ -16,7 +16,7 @@
                 <div class="subheading mb-3 --bebas" v-lang="'education.dmt-special'"></div>
             </div>
             <div class="my-date text-md-right">
-                <span class="--my-color" v-lang="'education.dmt-time'"></span>
+                <span class="--my-color --bebas" v-lang="'education.dmt-time'"></span>
             </div>
         </div>
     </div>

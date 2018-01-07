@@ -20,7 +20,7 @@
                 </span>
             </div>
         </div>
-        <div class="subheading mb-5">
+        <div class="subheading mb-5 --acrobat">
             <span v-lang="'about.information'"></span>
         </div>
 

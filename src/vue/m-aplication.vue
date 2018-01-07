@@ -32,12 +32,34 @@
     }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
     @import "../scss/main";
 
     .my-nav {
         background-color: $blue-regular;
+    }
 
+    .img-profile {
+        max-width: 10rem;
+        max-height: 10rem;
+        border: .8rem solid $blue-darkness;
+    }
+
+    .nav-item {
+        &.active {
+            background-color: $blue-darkness;
+        }
+
+        .nav-link {
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 1.5rem;
+        }
+    }
+</style>
+
+<style lang="scss">
+    .my-nav {
         .navbar-brand {
             color: #ffffff;
             &:hover {
@@ -51,23 +73,6 @@
                 -webkit-mask: url(/assets/toggle.svg) no-repeat 50% 50%;
                 mask: url(/assets/toggle.svg) no-repeat 50% 50%;
                 background-color: #ffffff;
-            }
-        }
-
-        .img-profile {
-            max-width: 10rem;
-            max-height: 10rem;
-            border: .8rem solid $blue-darkness;
-        }
-        .nav-item {
-            &.active {
-                background-color: $blue-darkness;
-            }
-
-            .nav-link {
-                color: #ffffff;
-                text-transform: uppercase;
-                font-size: 1.5rem;
             }
         }
     }

@@ -25,7 +25,7 @@
     }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
     @import "../scss/main";
 
     .my-certifications-list {
